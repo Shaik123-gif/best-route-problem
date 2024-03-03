@@ -1,12 +1,11 @@
 **Best Route Problem**<br/>
 I have solved this problem using java spring boot framework (As I am currently working on this framework, I am comfortable in this framework). 
 I am pretty sure that I have written a production ready code.<br/><br/>
-I also used strategy and factory design patterns in this application to achieve readability, modularity and extensibility. I have used all the OOPs concepts like inheritance, abstraction, encapsulation and complile time polymorphism (overloading).<br/>
+I also used strategy and factory design patterns in this application to achieve readability, modularity and extensibility. I have used all the OOPs concepts like inheritance, abstraction, encapsulation and complile time polymorphism (Method Overloading).<br/>
 
 **Code Explanation**<br/>
 Code starts from *BestRouteProjectApplication* class, where the main method is present. I have annotated a method with @PostConstruct, which means once the spring boot main method
-is executed, after that this method will be invoked.<br/>
-I have set coordinates manually for consumer, restaurant and the delivery executive. we can configure these values in application.properties also.<br/>
+is executed, after that this method will be invoked. I have set coordinates manually for consumer, restaurant and the delivery executive. we can configure these values in application.properties also.<br/>
 ```
 @SpringBootApplication
 public class BestRouteProjectApplication {
